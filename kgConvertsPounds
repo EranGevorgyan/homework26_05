@@ -1,0 +1,3 @@
+Weightkg = int(input("whrite your weight in kilogram"))
+Weightpound = int(Weightkg * 2.2)
+print(f"\n {Weightkg} is {Weightpound} pound ")
