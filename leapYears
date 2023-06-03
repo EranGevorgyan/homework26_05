@@ -1,0 +1,6 @@
+number = int(input("Enter a year"))
+if number < 1600:
+    print("Enter a year greater than 1600")
+else:
+    count = (number // 4 - 399) - (number - 1600)//100 + (number - 1600)//400
+    print(f"\n {count} leapyears.")
