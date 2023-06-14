@@ -1,0 +1,8 @@
+def rotate_by(arr, number):
+    if number > len(arr) or number < -len(arr) - 1:
+        return "Error"
+    else:
+        arr = arr[number:len(arr)]+arr[0:number]
+        return arr
+p = rotate_by([56, 89, 36, 21, 45, 78, 96, 32], -9)
+print(p)
